@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tutorial1.Views.MyMasterPage" Title="My Master Page">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Teal">
+            <StackLayout HorizontalOptions="Center" Margin="0,50">
+                <Label FontSize="24" Text="Hello Master Page">
+                </Label>
+                <Button FontSize="20" Text="Item1" Clicked="btnClicked"></Button>
+                <Button FontSize="20" Text="Item2" Clicked="btnTabbedClicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

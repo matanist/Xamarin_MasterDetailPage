@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tutorial1.Views.MyDetailPage">
+    <ContentPage.Content >
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="Blue">
+        <StackLayout HorizontalOptions="Center" Margin="1,50" >
+            <Label TextColor="White" FontSize="24" Text="Hello Detail Page"></Label>
+        </StackLayout>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
